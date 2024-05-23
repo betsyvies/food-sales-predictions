@@ -20,6 +20,15 @@ The dataset includes information on products and outlets. The available columns 
 - **Outlet_Type**: Type of outlet (e.g., supermarket, grocery store)
 - **Item_Outlet_Sales**: Sales of the product at the point of sale (target variable)
 
+## Exploratory Data Analysis (EDA)
+To better understand the data, we conducted an exploratory data analysis. Below are some key graphs:
+
+### Relationship between Sales of Product and Outlet Size
+![Distribution of Item_Outlet_Sales](images/boxplot.png)
+
+### Relationship between MRP and Sales of Product
+![Relationship between Item_MRP and Item_Outlet_Sales](images/heatmap.png)
+
 ## Methodology
 1. Data Exploration:
 - Exploratory data analysis (EDA) to understand the distribution and relationships between variables.
@@ -45,5 +54,5 @@ RMSE of Training Model: 1082.65
 RMSE of Test Model: 1057.44
 These results indicate that the model can reasonably predict sales with an error representing approximately 8.1% of the total sales range.
 
-## Conclusions.
+## Conclusions
 The regression tree model can predict point-of-sale product sales with a good degree of accuracy, considering the intrinsic variability of the data. Since with this, a better performance metric is obtained in the test data being 2.77% higher than the performance metric of the regression model. It is also worth noting that the variance in this model is minimal, which means that the model performs well with the data with training and test data. It is recommended that more complex models and additional optimization techniques be explored to reduce error further and improve prediction accuracy.
