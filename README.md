@@ -30,28 +30,29 @@ To better understand the data, we conducted an exploratory data analysis. Below 
 ![Relationship between Item_MRP and Item_Outlet_Sales](images/heatmap.png)
 
 ## Methodology
-1. Data Exploration:
+1. **Data Exploration:**
 - Exploratory data analysis (EDA) to understand the distribution and relationships between variables.
 - Treatment of null values and outliers.
 
-2. Preparation:
+2. **Preparation:**
 - Coding of categorical variables.
 - Scaling of numerical variables.
 
-3. Model training:
+3. **Model training:**
 - Division of the data into training and test sets.
 - Training of a linear regression model.
 - Evaluation of model performance using metrics such as coefficient of determination (R²) and root mean square error (RMSE).
   
-4. Model Validation and Fitting:
+4. **Model Validation and Fitting:**
 - Cross-validation to ensure model robustness.
 - Hyperparameter tuning and decision tree model selection to improve accuracy.
   
 ## Results
-R² of Training Model: 0.604
-R² of the Test Model: 0.595
-RMSE of Training Model: 1082.65
-RMSE of Test Model: 1057.44
+- **R² of Training Model:** 0.604
+- **R² of the Test Model:** 0.595
+- **RMSE of Training Model:** 1082.65
+- **RMSE of Test Model:** 1057.44
+
 These results indicate that the model can reasonably predict sales with an error representing approximately 8.1% of the total sales range.
 
 ## Conclusions
